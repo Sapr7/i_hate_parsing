@@ -1,0 +1,43 @@
+# Secrets
+.env
+bothub.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Pipeline outputs (regeneratable)
+output/
+
+# Debug / probe artifacts
+_debug*
+_probe*
+_rosatom_selenium.html
+_probe_fabrikant.html
+_probe_rosatom_archive.html
+_probe_rosatom_proc.html
+*.html
+eis_scan_*.txt
+
+# One-off scripts and patches (not part of the product)
+_fix_py_files.py
+_patch_*.py
+fix_utf8.py
+debug_*.py
+explore_*.py
+probe_*.py
+test_rosatom_selenium.py
+eis_aes_scan.py
+
+# Internal scratch
+_gg/
+
+# Archives / large binaries
+*.zip
+
+# OS
+Thumbs.db
+.DS_Store
